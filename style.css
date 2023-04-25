@@ -1,0 +1,232 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto+Mono:wght@300;500&family=Poppins:wght@600&display=swap');
+    /* variables */
+    
+     :root {
+        --primary-color: #5924ed;
+        --secondary-black: #0d081a;
+        --secondary-gray: #48464b;
+        --body-bg: #dfeef3;
+    }
+    /* global styles */
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Roboto Mono';
+        font-size: 10px;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: var(--body-bg);
+    }
+    
+    .btn {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    @media only screen and (max-width: 768px) {}
+    
+    @media only screen and (max-width: 950px) {}
+    
+    @media only screen and (max-width: 450px) {}
+    
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 80%; */
+        padding-top: 10%;
+    }
+    
+    .content {
+        /* border: 5px solid red; */
+        /* padding-left: 50px;
+    padding-top: 30px; */
+        width: 25%;
+        height: 60%;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 100px;
+        justify-content: space-evenly;
+    }
+    
+    #play {
+        font-size: 35px;
+        color: blue;
+    }
+    
+    .container {
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    .main {
+        position: relative;
+        color: #333;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 0px -19px 2px rgba(181, 177, 177, 0.6);
+        opacity: 0.8;
+        transform: scalez(-1);
+        margin-bottom: 80px;
+    }
+    
+    .home p {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .home h6 {
+        color: darkblue;
+        font-size: 10px;
+    }
+    
+    .circle-icon1 {
+        background: lightskyblue;
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    .circle-icon2 {
+        background: rgb(77, 213, 202);
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    .circle-icon3 {
+        background: rgb(175, 66, 237);
+        padding: 5px;
+        border-radius: 50%;
+    }
+    
+    .services {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    
+    .testimonial {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    
+    .name {
+        text-transform: uppercase;
+        font-family: 'Work Sans', sans-serif;
+    }
+    
+    .testimonial h1 {
+        margin-bottom: 80px;
+    }
+    
+    .sub {
+        background-color: #5924ed;
+        color: white;
+        border-radius: 20px;
+        padding: 6px 20px;
+        text-decoration: none;
+        border: 1 solid #5924ed;
+    }
+    
+    .cards {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .Testi {
+        /* border: 1px transparent;  */
+        padding: 20px;
+        box-shadow: 3px 6px 25px 0px #d5ccee;
+        border-radius: 42px 39% 7px 20%;
+        height: 240px!important;
+        width: 22% !important;
+        text-align: center;
+        position: relative;
+    }
+    
+    .profile {
+        width: 50px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -40px;
+        margin-left: -30px;
+    }
+    
+    #profile2 {
+        background-image: url("./image/arfan.jpg");
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 70px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #profile3 {
+        background-image: url("./image/ayan.jpg");
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 70px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .Testim {
+        position: relative;
+        /* border: 1px transparent;  */
+        padding: 20px;
+        box-shadow: 3px 6px 25px 0px #d5ccee;
+        border-radius: 42px 39% 7px 20%;
+        height: auto!important;
+        width: 22% !important;
+        text-align: center;
+        position: relative;
+    }
+    
+    .card {
+        width: 200px;
+        height: auto;
+    }
+    
+    .home h1 {
+        font-weight: 1000;
+        font-family: 'Alkatra', cursive;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .services h1 {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    .card h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .img {
+        background-image: url(./image/profile.jpg);
+        width: 300px;
+        height: 400px;
+        border-radius: 15px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
